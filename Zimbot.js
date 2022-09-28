@@ -3374,12 +3374,12 @@ break
   let btn = [{
  urlButton: {
   displayText: 'SUBSCRIBE',
-  url: 'https://youtube.ccom/c/DRIPSOFC'
+  url: 'https://www.youtube.com/channel/UCyx6idB-uZRFO3OThT_PWzw'
  }
   }, {
  callButton: {
   displayText: 'OWNER',
-  phoneNumber: '+27 634-090-0203'
+  phoneNumber: '+94742427578'
  }
   }, {
  quickReplyButton: {
@@ -3414,7 +3414,7 @@ for (let yoi of anu) {
     let btn = [{
  urlButton: {
   displayText: 'GITHUB',
-  url: 'https://github.com/zim-bot/zimbot-v2'
+  url: 'https://github.com/Badboybhushitha/BHUSHITHA-V3'
  }
   }, {
  quickReplyButton: {
@@ -3423,7 +3423,7 @@ for (let yoi of anu) {
  }
   }]
  fatihgans = fs.readFileSync('./Zimbot/drips.jpg')
- let txt = `「 ZIM BOT BROADCAST 」\n\n${text}`
+ let txt = `「 BHUSHITHA BOT BROADCAST 」\n\n${text}`
  ZimBotInc.send5ButImg(yoi, txt, `Broadcast By ${global.pengguna}`, fatihgans, btn)
 }
 reply('*Broadcast Success*')
@@ -3789,13 +3789,13 @@ replay(mess.wait)
  buttons: buttons,
  headerType: 4,
  contextInfo:{externalAdReply:{
- title:`ZIM BOT V4`,
- body:`DRIPS OFC`,
+ title:`BHUSHITHA V3`,
+ body:`BHUSHITHA OFC`,
  showAdAttribution: true,
  thumbnail: global.thumb,
  mediaType:2,
- mediaUrl: `https://youtu.be/KNu-gr2h7bo`,
- sourceUrl: `https://youtu.be/KNu-gr2h7bo`
+ mediaUrl: `https://www.youtube.com/channel/UCyx6idB-uZRFO3OThT_PWzw`,
+ sourceUrl: `https://www.youtube.com/channel/UCyx6idB-uZRFO3OThT_PWzw`
  }}
  }
  XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
@@ -3848,7 +3848,7 @@ ZimBotInc.sendMessage(from, {image:stallone},{quoted:m})
 break
 //---END HERE-------\\
 
-//CREATED BY DRIPS
+//CREATED BY BHUSHITHA
 
 //------ANIME FESTURES------\\
 case 'cry': 
@@ -4181,7 +4181,7 @@ url: `${drips2.videos[0].url}`
 }, {
 urlButton: {
 displayText: `GITHUB`, 
-url: `https://github.com/zim-bot/zimbot-v4/fork`
+url: `https://github.com/Badboybhushitha/BHUSHITHA-V3/fork`
 }
 }, {
 quickReplyButton: {
@@ -4243,7 +4243,7 @@ url: `${anu.url}`
 }, {
 urlButton: {
 displayText: `GITHUB`, 
-url: `https://github.com/zim-bot/zimbot-v4/fork`
+url: `https://github.com/Badboybhushitha/BHUSHITHA-V3/fork`
 }
 }, {
 quickReplyButton: {
@@ -4285,13 +4285,13 @@ let caption = `
 buf = await getBuffer(media.thumb)
 ZimBotInc.sendMessage(m.chat, { image: { url: media.thumb }, jpegThumbnail:buf, caption: `${caption}` }, { quoted: m }).catch((err) => m.reply('*Sorry, the link you provided is not valid*'))   
 ZimBotInc.sendMessage(m.chat, {document:{url:media.dl_link}, mimetype:"audio/mpeg", fileName: `${media.title}.mp3`,  quoted: m, contextInfo: { externalAdReply:{
-title:"ZIM BOT V4",
-body:"SUB DRIPS OFC",
+title:"BHUSHITHA V3",
+body:"SUB BHUSHITHA OFC",
 showAdAttribution: true,
 mediaType:2,
 thumbnail: fs.readFileSync(`./drips.jpg`) ,
-mediaUrl:`https://youtu.be/KNu-gr2h7bo`, 
-sourceUrl: `https://youtu.be/KNu-gr2h7bo` }}}, {quoted: m})
+mediaUrl:`https://www.youtube.com/channel/UCyx6idB-uZRFO3OThT_PWzw`, 
+sourceUrl: `https://www.youtube.com/channel/UCyx6idB-uZRFO3OThT_PWzw` }}}, {quoted: m})
 }
 break
 case 'audio': {    
@@ -4310,13 +4310,13 @@ let caption = `
 buf = await getBuffer(media.thumb)
 ZimBotInc.sendMessage(m.chat, { image: { url: media.thumb }, jpegThumbnail:buf, caption: `${caption}` }, { quoted: m }).catch((err) => m.reply('*Sorry, the link you provided is not valid*'))   
 ZimBotInc.sendMessage(m.chat, {audio:{url:media.dl_link}, mimetype:"audio/mpeg", fileName: `${media.title}.mp3`,  quoted: m, contextInfo: { externalAdReply:{
-title:"ZIM BOT V4",
-body:"DRIPS",
+title:"BHUSHITHA V3",
+body:"BHUSHITHA",
 showAdAttribution: true,
 mediaType:2,
 thumbnail: fs.readFileSync(`./drips.jpg`) ,
-mediaUrl:`https://youtu.be/KNu-gr2h7bo`, 
-sourceUrl: `https://youtu.be/KNu-gr2h7bo` }}}, {quoted: m})
+mediaUrl:`https://www.youtube.com/channel/UCyx6idB-uZRFO3OThT_PWzw`, 
+sourceUrl: `https://www.youtube.com/channel/UCyx6idB-uZRFO3OThT_PWzw` }}}, {quoted: m})
 }
 break
 case 'ytmp4': case 'ytvideo': {
@@ -4335,13 +4335,13 @@ var capti = `
 var buf = await getBuffer(media.thumb)
 ZimBotInc.sendMessage(m.chat, { image: { url: media.thumb }, jpegThumbnail:buf, caption: `${capti}` }, { quoted: m })
 ZimBotInc.sendMessage(m.chat, { video: { url: media.dl_link }, jpegThumbnail:buf, mimetype: 'video/mp4', fileName: `${media.title}.mp4`, caption: `*Downloading From ${text}*` ,  quoted: m,contextInfo: { externalAdReply:{
-title:"ZIM BOT V4",
-body:"DRIPS",
+title:"BHUSHITHA V3",
+body:"BHUSHITHA",
 showAdAttribution: true,
 mediaType:2,
 thumbnail: fs.readFileSync(`./drips.jpg`) ,
-mediaUrl:`https://youtu.be/KNu-gr2h7bo`, 
-sourceUrl: `https://youtu.be/KNu-gr2h7bo` }}}, {quoted: m})
+mediaUrl:`https://www.youtube.com/channel/UCyx6idB-uZRFO3OThT_PWzw`, 
+sourceUrl: `https://www.youtube.com/channel/UCyx6idB-uZRFO3OThT_PWzw` }}}, {quoted: m})
 }
 break
 case 'ytshorts': case 'shorts': {
@@ -4408,13 +4408,13 @@ const result4 = `
 *${botname}*`
 reply(`${result4}`)
 ZimBotInc.sendMessage(m.chat, { document : { url : baby1[0].link}, fileName : baby1[0].nama, mimetype: baby1[0].mime ,  quoted : mudratunha, contextInfo: { externalAdReply:{
-  title:"ZIM BOT V4",
-  body:"SUBSCRIBE DRIPS OFC",
+  title:"BHUSHITHA V3",
+  body:"SUBSCRIBE BHUSHITHA OFC",
   showAdAttribution: true,
   mediaType:2,
   thumbnail: fs.readFileSync(`./drips.jpg`) ,
-  mediaUrl:`https://youtu.be/KNu-gr2h7bo`, 
-sourceUrl: `https://youtu.be/KNu-gr2h7bo` }}}, {quoted: m})
+  mediaUrl:`https://www.youtube.com/channel/UCyx6idB-uZRFO3OThT_PWzw`, 
+sourceUrl: `https://www.youtube.com/channel/UCyx6idB-uZRFO3OThT_PWzw` }}}, {quoted: m})
 }
 break
 case 'song': {
@@ -4560,24 +4560,24 @@ case 'fbdl': case 'fb': case 'facebook': case 'fbvideo': {
 
          txt += `*◉DESCRIPTION :* ${data.description}\n`
 
-         txt += `*◉ID :* ZIM BOT INC\n`
+         txt += `*◉ID :* BHUSHITHA V3\n`
 
          txt += `*◉URL :* ${text}\n\n`
 
-         txt += `*ZIM BOT INC*`                
+         txt += `*BHUSHITHA V3*`                
 
      buf = await getBuffer(data.thumbnail)    
 
      ZimBotInc.sendMessage(m.chat, { image: { url: data.thumbnail }, jpegThumbnail:buf, caption: `${txt}` }, {quoted: mudratunha})
      for (let i of data.result) {  
     ZimBotInc.sendMessage(m.chat, { video: { url: i.url }, jpegThumbnail:buf, mimetype: 'video/mp4', caption: `*◉ Quality :* ${i.quality}` ,  quoted: m,contextInfo: { externalAdReply:{
-      title:"ZIM BOT V4",
-      body:"SUBSCRIBE DRIPS OFC",
+      title:"BHUSHITHA V3",
+      body:"SUBSCRIBE BHUSHITHA OFC",
       showAdAttribution: true,
       mediaType:2,
       thumbnail: fs.readFileSync(`./drips.jpg`) ,
-      mediaUrl:`https://youtu.be/KNu-gr2h7bo`, 
-      sourceUrl: `https://youtu.be/KNu-gr2h7bo` }}}, {quoted: m})
+      mediaUrl:`https://www.youtube.com/channel/UCyx6idB-uZRFO3OThT_PWzw`, 
+      sourceUrl: `https://www.youtube.com/channel/UCyx6idB-uZRFO3OThT_PWzw` }}}, {quoted: m})
      
        
      }
@@ -4638,7 +4638,7 @@ const sendm =  ZimBotInc.sendMessage(
 
    text: `${data.meta.title} *Here is the list of videos, click the button below to choose, here is the list of videos, click the button below to choose*`,
 
-   footer: `©ZIM BOT INC 2022`,
+   footer: `©BHUSHITHA V32022`,
 
    title: "**▊▊▊SAVEFROM DL▊▊▊**",
 
@@ -4739,12 +4739,12 @@ hydratedFooterText: `${botname}`,
 hydratedButtons: [{
 urlButton: {
 displayText: 'SUBSCRIBE',
-url: 'https://www.youtube.com/c/DRIPSOFC'
+url: 'https://www.youtube.com/channel/UCyx6idB-uZRFO3OThT_PWzw'
 }
 }, {
 urlButton: {
 displayText: 'GITHUB',
-url: 'https://github.com/zim-bot/zimbot-v4/fork'
+url: 'https://github.com/Badboybhushitha/BHUSHITHA-V3/fork'
 }
 }, {
 quickReplyButton: {
@@ -4838,7 +4838,7 @@ url: `${text}`
 }, {
 urlButton: {
 displayText: 'GITHUB',
-url: 'https://github.com/zim-bot/zimbot-v4/fork'
+url: 'https://github.com/Badboybhushitha/BHUSHITHA-V3/fork'
 }
 }, {
 quickReplyButton: {
@@ -5094,7 +5094,7 @@ txt += `*⬤TYPE :* ${data.medias[1].extension}\n`
 txt += `*⬤SIZE :* ${data.medias[1].formattedSize}\n`
 txt += `*⬤DURATION :* ${data.medias.length}\n`
 txt += `*⬤URL :* ${data.url}\n\n`
-txt += `*ZIM BOT INC*`
+txt += `*BHUSHITHA V3*`
 buf = await getBuffer(data.thumbnail)    
 ZimBotInc.sendMessage(m.chat, { image: { url: data.thumbnail }, jpegThumbnail:buf, caption: `${txt}` }, { quoted: m })
 for (let i of data.medias) {
@@ -5152,11 +5152,11 @@ txt += `*⬤QUALITY :* ${data.result[0].quality}\n`
 
 txt += `*⬤DESCRIPTION :* ${data.description}\n`
 
-txt += `*⬤ID :* ZIM BOT INC\n`
+txt += `*⬤ID :*BHUSHITHA V3\n`
 
 txt += `*⬤URL :* ${text}\n\n`
 
-txt += `*ZIM BOT INC*`                
+txt += `*BHUSHITHA V3*`                
 
 buf = await getBuffer(data.thumbnail)    
 
@@ -5201,7 +5201,7 @@ txt += `*⬤QUALITY :* ${data.medias[1].quality}\n`
 txt += `*:⬤TYPE* ${data.medias[1].extension}\n`
 txt += `*⬤SIZE :* ${data.medias[1].formattedSize}\n`
 txt += `*⬤URL :* ${data.url}\n\n`
-txt += `*ZIM BOT INC*`
+txt += `*BHUSHITHA V3*`
 buf = await getBuffer(data.thumbnail)    
 ZimBotInc.sendMessage(m.chat, { image: { url: data.thumbnail }, jpegThumbnail:buf, caption: `${txt}` }, { quoted: m })              
 ZimBotInc.sendMessage(m.chat, { video: { url: data.medias[1].url }, jpegThumbnail:buf, caption: `*⬤ Quality :* ${data.medias[1].quality}`}, { quoted: m })                
@@ -5361,10 +5361,10 @@ await sleep(1500)
 let btn = [{
 urlButton: {
 displayText: 'GITHUB',
-url: 'https://github.com/zim-bot/zimbot-v4/fork'
+url: 'https://github.com/Badboybhushitha/BHUSHITHA-V3/fork'
 }
 }]
-let txt = `「 *ZIMBOT BROADCAST* 」\n\n${text}`
+let txt = `「 *BHUSHITHA BROADCAST* 」\n\n${text}`
 ZimBotInc.send5ButImg(i, txt, botname, global.bc, btn)
 }
 reply(` *Send Broadcast To* ${anu.length} *Group*`)
@@ -5380,7 +5380,7 @@ await sleep(1500)
 let btn = [{
 urlButton: {
 displayText: 'GITHUB',
-url: 'https://github.com/zim-bot/zimbot-v4/fork'
+url: 'https://github.com/Badboybhushitha/BHUSHITHA-V3/fork'
 }
 }]
 let txt = `「 *ZIMBOT BROADCAST* 」\n\n${text}`
@@ -5413,7 +5413,7 @@ await sleep(1500)
 let butoon = [{
 urlButton: {
 displayText: `GITHUB`,
-url: 'https://github.com/zim-bot/zimbot-v4/fork'
+url: 'https://github.com/Badboybhushitha/BHUSHITHA-V3/fork'
 }
 },
 {
@@ -5531,7 +5531,7 @@ break
 
 //----END HERE------\\
 
-//CREATED BY ZIM BOT INC
+//CREATED BY BHUSHITHA
 
 //----PHOT FILTER-----\\
 break
@@ -5591,7 +5591,7 @@ sourceUrl: `https://youtu.be/KNu-gr2h7bo` }}}, {quoted: m})
  
 //----END HERE-------\\
 
-//CREATED BY ZIM BOT INC
+//CREATED BY BHUSHITHA
 
 //----TEXTPRO--------\\
 case 'candy':
@@ -5713,7 +5713,7 @@ if (/1917/.test(command)) link = 'https://textpro.me/1917-style-text-effect-onli
 if (/leaves/.test(command)) link = 'https://textpro.me/natural-leaves-text-effect-931.html'
 let anu = await maker.textpro(link, q)
 ZimBotInc.sendMessage(m.chat, { image: { url: anu }, caption: `Made by ${global.botname}` ,  quoted: m, contextInfo: { externalAdReply:{
-  title:"ZIM BOT V4",
+  title:"BHUSHITHA V3",
   body:"SUBSCRIBE DRIPS OFC",
   showAdAttribution: true,
   mediaType:2,
@@ -5723,7 +5723,7 @@ sourceUrl: `https://youtu.be/KNu-gr2h7bo` }}}, {quoted: m})
 }
 //----END HERE--------\\
 
-//CREATED BY DRIPS
+//CREATED BY BHUSHITHA
 
 //----PHOTOOXY------\\
 case 'silk':  
@@ -5756,7 +5756,7 @@ case 'underwaterocean': {
 if (!text) throw `Example : ${prefix + command} text`
 anu = await getBuffer(`https://violetics.pw/api/photooxy/${command}?apikey=beta&text=${text}`)
 ZimBotInc.sendMessage(m.chat, { image: anu, caption: `*PHOTO OXY ${command}*` , quoted: m, contextInfo: { externalAdReply:{
-  title:"ZIM BOT V4",
+  title:"BHUSHITHA V3",
   body:"SUBSCRIBE DRIPS OFC",
   showAdAttribution: true,
   mediaType:2,
@@ -5768,7 +5768,7 @@ break
 
 //---END HERE------\\
 
-//CREATED BY DRIPS
+//CREATED BY BHUSHITHA
 
 //----EPHOTO-------\\
 case '3d-wood': 
@@ -6119,7 +6119,7 @@ case 'igsearch':
       m.chat, 
       {
        text: `${ucapannya2} ${pushname} *Search Results From ${text} Click the button below to choose*`,
-       footer: `© ZIM BOT INC`,
+       footer: `© BHUSHITHA`,
        title: "*▊▊▊APK DOWNLOAD▊▊▊*",
        buttonText: "CLICK HERE",
        sections
@@ -6734,7 +6734,7 @@ this.anonymous = this.anonymous ? this.anonymous : {}
 let buttons = [{
  urlButton: {
   displayText: 'REPORT',
-  url: 'https://wa.me/27634090203?text=hello+bro+i+found+a+bug+in+your+bot'
+  url: 'https://wa.me/94742427578?text=hello+bro+i+found+a+bug+in+your+bot'
  }
   }, {
  quickReplyButton: {
@@ -6868,7 +6868,7 @@ other: function (who = '') {
  case 'public': {
    if (!isCreator) throw global.owner
    ZimBotInc.public = true
-   reply('𝗭𝗶𝗺 𝗯𝗼𝘁 𝗻𝗼𝘄 𝘄𝗼𝗿𝗸𝗶𝗻𝗴 𝗮𝘀 𝗽𝘂𝗯𝗹𝗶𝗰')
+   reply('BHUSHITHA 𝗯𝗼𝘁 𝗻𝗼𝘄 𝘄𝗼𝗿𝗸𝗶𝗻𝗴 𝗮𝘀 𝗽𝘂𝗯𝗹𝗶𝗰')
  }// https://hardianto.xyz/api/rip?image=https://i.imgur.com/rANDwCP.jpeg&apikey=hardianto
  break
  case 'attp': {
@@ -6889,7 +6889,7 @@ other: function (who = '') {
  case 'self': {
    if (!isCreator) throw global.owner
    ZimBotInc.public = false
-   reply('𝗭𝗶𝗺 𝗯𝗼𝘁 𝗻𝗼𝘄 𝘄𝗼𝗿𝗸𝗶𝗻𝗴 𝗮𝘀 𝗽𝗿𝗶𝘃𝗮𝘁𝗲')
+   reply('BHUSHITHA 𝗯𝗼𝘁 𝗻𝗼𝘄 𝘄𝗼𝗿𝗸𝗶𝗻𝗴 𝗮𝘀 𝗽𝗿𝗶𝘃𝗮𝘁𝗲')
  }
  break
  case 'ping': case 'botstatus': case 'statusbot': {
@@ -7011,12 +7011,12 @@ hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{
 urlButton: {
 displayText: 'SUBSCRIBE',
-url: 'https://www.youtube.com/c/DRIPSOFC'
+url: 'https://www.youtube.com/channel/UCyx6idB-uZRFO3OThT_PWzw'
 }
 }, {
 urlButton: {
 displayText: 'GITHUB',
-url: 'https://github.com/zim-bot/zimbot-v4/fork'
+url: 'https://github.com/Badboybhushitha/BHUSHITHA-V3/fork'
 }
 }, {
 quickReplyButton: {
